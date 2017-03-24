@@ -1,6 +1,9 @@
 {
     "manifest_version": 2,
+    
     "name": "Trello List Resizer",
+    "description": "Simple extension for wider Trello lists.",
+    "version":"0.1",
     "content_scripts": [
         {
          "matches": [
@@ -9,9 +12,5 @@
          "css": ["estiloNuevo.css"],
          "run_at" : "document_start"
         }
-    ],
-    "browser_action": {
-    "default_popup": "popup.html"
-  },
-    "version":"0.1"
+    ]
 }
